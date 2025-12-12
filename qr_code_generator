@@ -1,0 +1,5 @@
+import qrcode as qr
+#take the link from user
+url=input("enter the url :")
+#convert it to a qr code and save it as a png
+qr.make(url).save("qrcode.png")
